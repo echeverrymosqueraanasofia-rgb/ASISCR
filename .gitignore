@@ -6,10 +6,3 @@ coverage/
 *.log
 .env*
 !.env.example
-# Configuración privada
-.env
-.env.*
-firebase-applet-config.json
-
-# Archivos PHP
-*.php
