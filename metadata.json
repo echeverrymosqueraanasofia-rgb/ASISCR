@@ -1,0 +1,6 @@
+{
+  "name": "ASISCR - Control de Asistencia Escolar",
+  "description": "Sistema de gestión y control de asistencia escolar para docentes, directivos, estudiantes y padres de familia con soporte para Firebase y API REST.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir operaciones en las colecciones de nuestro sistema escolar
+    match /usuarios/{document} {
+      allow read, write: if true;
+    }
+    match /grados/{document} {
+      allow read, write: if true;
+    }
+    match /estudiantes/{document} {
+      allow read, write: if true;
+    }
+    match /materias/{document} {
+      allow read, write: if true;
+    }
+    match /asistencias/{document} {
+      allow read, write: if true;
+    }
+    match /horarios/{document} {
+      allow read, write: if true;
+    }
+    match /avisos/{document} {
+      allow read, write: if true;
+    }
+  }
+}
